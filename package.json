@@ -1,13 +1,13 @@
 {
   "name": "terminal-warp",
-  "version": "0.0.9",
+  "version": "0.0.91",
   "description": "NPM command that installs Warp Terminal actions into Windows Terminal.",
-  "main": "dist/index.js",
+  "main": "bin/index.js",
   "bin": {
-    "terminal-warp": "dist/index.js"
+    "terminal-warp": "bin/index.js"
   },
   "scripts": {
-    "start": "node dist/index.js",
+    "start": "node bin/index.js",
     "build": "tsc",
     "dev": "tsc -w",
     "format": "prettier --write .",
