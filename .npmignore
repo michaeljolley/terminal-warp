@@ -1,6 +1,5 @@
 src
 .github
 .gitignore
-.npmignore
 eslint.config.mjs
 tsconfig.json

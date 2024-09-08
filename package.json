@@ -1,6 +1,6 @@
 {
   "name": "terminal-warp",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "NPM command that installs Warp Terminal actions into Windows Terminal.",
   "main": "dist/index.js",
   "bin": {
