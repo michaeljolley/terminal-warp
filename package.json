@@ -1,12 +1,12 @@
 {
   "name": "terminal-warp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "NPM command that installs Warp Terminal actions into Windows Terminal.",
-  "bin": {
-    "terminal-warp": "bin/terminal-warp.mjs"
-  },
+  "bin": "bin/terminal-warp.js",
+  "main": "./bin/terminal-warp.js",
+  "type": "module",
   "scripts": {
-    "start": "node ./bin/terminal-warp.mjs"
+    "start": "node ./bin/terminal-warp.js"
   },
   "author": "Michael Jolley <mike@baldbeardedbuilder.com>",
   "license": "MIT",
