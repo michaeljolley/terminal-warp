@@ -6,8 +6,8 @@ NPM command that installs Warp Terminal actions into Windows Terminal.
 npx terminal-warp
 ```
 
-![Example usage](./resources/usage.png)
+![Example usage](https://i.ibb.co/PgtPCB1/usage.png)
 
 ## Using Suggestions
 
-![Using suggestions](./resources/suggestions.gif)
+![Using suggestions](https://i.ibb.co/fpSdNsN/suggestions.gif)
