@@ -1,36 +1,18 @@
 {
   "name": "terminal-warp",
-  "version": "0.0.98",
+  "version": "0.0.99",
   "description": "NPM command that installs Warp Terminal actions into Windows Terminal.",
   "bin": {
-    "terminal-warp": "bin/terminal-warp.js"
+    "terminal-warp": "bin/terminal-warp.mjs"
   },
   "scripts": {
-    "start": "node ./bin/terminal-warp.js",
-    "build": "esbuild src/index.ts --platform=neutral --packages=external --bundle --outfile=bin/terminal-warp.js",
-    "format": "prettier --write .",
-    "lint": "eslint -c eslint.config.mjs ."
+    "start": "node ./bin/terminal-warp.mjs"
   },
-  "type": "module",
   "author": "Michael Jolley <mike@baldbeardedbuilder.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/michaeljolley/terminal-warp.git"
-  },
-  "devDependencies": {
-    "@types/node": "^22.5.4",
-    "@types/titlecase": "^1.1.2",
-    "@types/tmp": "^0.2.6",
-    "@types/unzipper": "^0.10.10",
-    "@typescript-eslint/eslint-plugin": "^8.4.0",
-    "@typescript-eslint/parser": "^8.4.0",
-    "esbuild": "^0.23.1",
-    "eslint": "^9.10.0",
-    "globals": "^15.9.0",
-    "prettier": "^3.3.3",
-    "typescript": "^5.5.4",
-    "typescript-eslint": "^8.4.0"
   },
   "dependencies": {
     "@clack/core": "^0.3.4",

@@ -1,6 +1,2 @@
-src
-resources
 .github
 .gitignore
-eslint.config.mjs
-tsconfig.json
