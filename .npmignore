@@ -1,4 +1,5 @@
 src
+resources
 .github
 .gitignore
 eslint.config.mjs
