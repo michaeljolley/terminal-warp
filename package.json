@@ -1,14 +1,13 @@
 {
   "name": "terminal-warp",
-  "version": "0.0.97",
+  "version": "0.0.98",
   "description": "NPM command that installs Warp Terminal actions into Windows Terminal.",
-  "main": "bin/index.js",
   "bin": {
-    "terminal-warp": "node ./bin/index.js"
+    "terminal-warp": "bin/terminal-warp.js"
   },
   "scripts": {
-    "start": "node ./bin/index.js",
-    "build": "esbuild src/index.ts --platform=neutral --packages=external --bundle --outfile=bin/index.js",
+    "start": "node ./bin/terminal-warp.js",
+    "build": "esbuild src/index.ts --platform=neutral --packages=external --bundle --outfile=bin/terminal-warp.js",
     "format": "prettier --write .",
     "lint": "eslint -c eslint.config.mjs ."
   },
