@@ -2,7 +2,7 @@
 
 We appreciate contributions of any kind and acknowledge them on our
 [README][readme]. By participating in this project, you agree to abide by our
-[code of conduct](CODE_OF_CONDUCT.md).
+[Code of Conduct][code_of_conduct].
 
 ## How Can You Contribute?
 
@@ -20,7 +20,7 @@ contributor if they'd like some help.
 
 Go right ahead! Just submit a pull request when you're done.
 
-## Commits
+## Commit Messages
 
 We use `semantic-release` to generate release notes and manage updating our
 version number. Semantic Release uses
@@ -58,7 +58,7 @@ You can often watch pull requests get reviewed live on Twitch at
 Some things that will increase the chance that your pull request is accepted:
 
 - Update [README][readme] with any needed changes
-- **Write/update tests.**
-- Write a [good commit message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
+- Write a [good commit message](#commit-messages).
 
-[readme]: https://github.com/MichaelJolley/vscode-vs-outlining/tree/main#readme
+[readme]: https://github.com/MichaelJolley/terminal-warp/tree/main#readme
+[code_of_conduct]: https://github.com/MichaelJolley/terminal-warp/tree/main/.github/CODE_OF_CONDUCT.md
