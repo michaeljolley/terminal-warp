@@ -7,15 +7,15 @@
     [
       "@semantic-release/npm",
       {
-        tarballDir: "false",
-      },
+        "tarballDir": "false"
+      }
     ],
     "@semantic-release/git",
     [
       "@semantic-release/github",
       {
-        assets: "*/*.tgz",
-      },
-    ],
+        "assets": "*/*.tgz"
+      }
+    ]
   ]
 }
