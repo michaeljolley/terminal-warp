@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/michaeljolley/terminal-warp/compare/v1.0.1...v1.0.2) (2024-09-15)
+
+
+### Bug Fixes
+
+* Cleaning tgz from package ([b8406e1](https://github.com/michaeljolley/terminal-warp/commit/b8406e1ab93805f719a2be8fd8bc8fc6340de55b))
+
 ## [1.0.1](https://github.com/michaeljolley/terminal-warp/compare/v1.0.0...v1.0.1) (2024-09-15)
 
 
