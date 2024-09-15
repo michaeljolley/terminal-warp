@@ -3,4 +3,6 @@ src
 .gitignore
 eslint.config.mjs
 tsconfig.json
+.releaserc
+CHANGELOG.md
 *.release.config.js
